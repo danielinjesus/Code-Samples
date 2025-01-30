@@ -18,4 +18,4 @@ print(df_table)
 print(f"모든 중복 행 수: {len(df[df.duplicated()])}") # 중복행 keep='first'기본값. 두번째 값만 True로 반환.
 print(f"중복 아닌 행 갯수: {len(df[~df.duplicated()])}")
 print(f"모든 중복 행 수 두번째만: {df.duplicated(subset=df.columns,keep=False).sum()}") # 첫번째 행은 두고, 두번째 행만 센다. 모든 열을 기준으로 하나라도 중복된 행 개수를 반환
-print(f"열별 두번째 이상 중복 수: \n{df.apply(lambda col: col.duplicated().sum())}") # 각 열별 중복 개수
+print(f"'열별' 두번째 이상 중복 수: \n{df.apply(lambda col: col.duplicated().sum())}") # 각 열별 중복 개수
