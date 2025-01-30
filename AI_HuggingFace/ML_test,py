@@ -1,0 +1,10 @@
+for epoch in range(epochs):
+    # 1. Train 단계: 모델 학습
+    model.train()  # 학습 모드
+    total_train_loss, correct_train = 0, 0
+    for X, y in train_loader:
+        optimizer.zero_grad()
+        output = model(X)
+        loss = torch.nn.functional.cross_entropy(output, y)
+        loss.backward()
+        optimizer.step()

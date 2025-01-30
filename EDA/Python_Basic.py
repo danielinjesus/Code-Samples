@@ -32,3 +32,15 @@ print(*[a[i:i+2] for i in range(0,6,2)]); #전제: a=input()
 print(input().replace('-','')) #문자열 대체      
 print(input().split(':')[1])
 print(*input().split(' '),sep="")
+
+####################### Strip #######################
+import pandas as pd
+topic = pd.read_csv("")
+topic_revised = []
+for topic in topic['topic']:
+    topic2 = topic.replace('\n', ' ').strip()
+    topic_revised.append(topic2)
+topic_revised = pd.DataFrame({ "topic" : topic_revised })
+topic_revised.to_csv("")
+
+# https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html
