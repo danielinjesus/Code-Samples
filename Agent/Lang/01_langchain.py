@@ -1,0 +1,2 @@
+from dotenv import load_dotenv,os;load_dotenv("/data/ephemeral/home/upstageailab-llm-pjt-chatbot-1/Daun/.env")
+from openai import OpenAI;openai=OpenAI(api_key=os.getenv("openai"),base_url="https://api.openai.com/v1")
