@@ -1,5 +1,5 @@
-from dotenv import load_dotenv;load_dotenv();import anthropic, os
-
+from dotenv import load_dotenv;load_dotenv();
+import anthropic, os
 client = anthropic.Anthropic(
     # defaults to os.environ.get("ANTHROPIC_API_KEY")
     api_key=os.getenv("claude"))
