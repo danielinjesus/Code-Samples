@@ -24,7 +24,7 @@ def retrieve_food(username): # ✅ 2. 함수 정의 (냉장고 털기)
         else: return "❌ 존재하지 않는 계정입니다."
     except Exception as e: return f"❌ 에러 발생: {e}"    
 functions=[{"name": "naver","description": "네이버 쇼핑에서 여러 개의 키워드를 검색하는 함수", # ✅ 3.  GPT Function Calling 설정
-        "parameters": {"type": "object","properties": {"keyword": {"type":"string", "description": "검색할 키워드"}},"required": ["keyword"],},}]             
+        "parameters": {"type": "object","properties": {"keyword": {"type":"string", "description": "검색할 키워드"}},"required": ["keyword"],},}]
 sys_message={"role": "system", "content": ("너는 [내 개인 조리사 및 건강 관리사]야. 내 키, 체중, 혈당, 재료별 칼로리를 고려하여 건강당뇨식단을 추천한다."
         "너가 할 [구체적 임무] 1. 한국어로 대답한다."
         "2. 요청 시 현재 식자재 목록으로 할 수 있는 최적의 식사조리법과 재료, 칼로리, 혈당 관점에서 가르쳐준다."
