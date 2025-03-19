@@ -4,7 +4,7 @@ import requests as req,json;from dotenv import load_dotenv;import os,time;load_d
 # json_data = json.loads(res.content.decode("utf-8")) # ✅ 직접 JSON 변환 (BOM 제거)
 # print(json.dumps(json_data, ensure_ascii=False, indent=2)) # ✅ 한글 깨짐 없이 출력
 
-filename = r"C:\OCR\eval_test\t-drp.en_ko.in_house.selectstar_003927.jpg"
+filename = r"C:\code-samples\Document\img\drp.en_ko.in_house.selectstar_000013.jpg"
 # API URL
 api_url = "https://7pnf4rczq4.apigw.ntruss.com/custom/v1/39304/d37c5e7961d0ed500ecf0475346027cf2d7010b7083c411f953936b0e38b1ab2/general"  # API Gateway 엔드포인트
 
@@ -30,6 +30,9 @@ payload = {
 # HTTP 요청 헤더
 headers = {"Content-Type": "application/json",
     "X-OCR-SECRET": api_key}
+
+
+print(json.dumps(payload, indent=2))
 
 with open(filename, "rb") as f:
     files = {"file": f}  # 파일 업로드 설정

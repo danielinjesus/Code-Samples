@@ -1,5 +1,5 @@
 import requests as req,json;from dotenv import load_dotenv;import os;load_dotenv()
-filename=r"C:\OCR\eval_test\t-drp.en_ko.in_house.selectstar_003927.jpg"
+filename=r"C:\code-samples\Document\img\drp.en_ko.in_house.selectstar_000013.jpg"
 files={"document":open(filename,"rb")}
 url="https://api.upstage.ai/v1/document-ai/document-parse"
 headers={"Authorization":f"Bearer {os.getenv("upstage")}"}

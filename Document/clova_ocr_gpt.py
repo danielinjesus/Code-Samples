@@ -17,7 +17,7 @@ if not api_key:
     exit()
 
 # ✅ 파일 경로 (로컬 이미지)
-filename = r"C:\OCR\eval_test\t-drp.en_ko.in_house.selectstar_003927.jpg"
+filename = r"C:\code-samples\Document\img\drp.en_ko.in_house.selectstar_000013.jpg"
 
 # ✅ HTTP 요청 헤더
 headers = {
@@ -53,9 +53,9 @@ with open(filename, "rb") as f:
         # 결과 출력
         print(extracted_text)
         
-        # print(json.dumps(response_json, ensure_ascii=False, indent=2))  # JSON 출력
-        # num_objects = len(response_json["images"][0]["fields"])  # 첫 번째 이미지의 필드 개수
-        # print(f"📌 검출된 객체 개수: {num_objects} 개")
+        print(json.dumps(response_json, ensure_ascii=False, indent=2))  # JSON 출력
+        num_objects = len(response_json["images"][0]["fields"])  # 첫 번째 이미지의 필드 개수
+        print(f"📌 검출된 객체 개수: {num_objects} 개")
     except req.exceptions.HTTPError as http_err:
         print(f"❌ HTTP 오류 발생: {http_err}")
         print(response.text)
