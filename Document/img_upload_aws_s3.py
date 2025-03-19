@@ -23,7 +23,13 @@ uploaded_file = st.file_uploader("이미지를 업로드하세요", type=["png",
 if uploaded_file:
     # 이미지 표시
     image = Image.open(uploaded_file)
-    st.image(image, caption="업로드된 이미지", use_container_width=True)  # ✅ 최신 Streamlit 대응
+    
+    # ✅ Streamlit용으로만 크기 조정 (50%)
+    width, height = image.size
+    new_size = (width // 2.5, height // 2.5)  # ✅ Reduce by 50%
+    resized_image = image.resize(new_size, Image.ANTIALIAS)  # ✅ Display only
+    
+    st.image(resized_image, caption="업로드된 이미지", use_container_width=True)  # ✅ 최신 Streamlit 대응
 
     # ✅ S3 특정 폴더(`img/`)에 저장
     folder_path = "img/"  # S3 내부 폴더 경로
