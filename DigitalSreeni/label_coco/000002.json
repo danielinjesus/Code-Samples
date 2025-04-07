@@ -1,0 +1,69 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "책표지_총류_000002.jpg",
+            "width": 1600,
+            "height": 1200,
+            "date_captured": "20210218"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                19,
+                47,
+                1506,
+                384
+            ],
+            "area": 578304,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 2,
+            "bbox": [
+                19,
+                478,
+                1114,
+                -35
+            ],
+            "area": -38990,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 1,
+            "category_id": 3,
+            "bbox": [
+                1205,
+                747,
+                -926,
+                -607
+            ],
+            "area": 562082,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "시나리오",
+            "supercategory": "text"
+        },
+        {
+            "id": 2,
+            "name": "플래닝",
+            "supercategory": "text"
+        },
+        {
+            "id": 3,
+            "name": "유정식 지음",
+            "supercategory": "text"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+  "classes": [],
+  "images": [
+    {
+      "file_name": "000001.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000002.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000005.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000006.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000007.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000008.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000009.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000010.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    }
+  ],
+  "image_paths": {
+    "000001.jpg": "C:/code-samples/DigitalSreeni\\images\\000001.jpg",
+    "000002.jpg": "C:/code-samples/DigitalSreeni\\images\\000002.jpg",
+    "000005.jpg": "C:/code-samples/DigitalSreeni/images/000005.jpg",
+    "000006.jpg": "C:/code-samples/DigitalSreeni/images/000006.jpg",
+    "000007.jpg": "C:/code-samples/DigitalSreeni/images/000007.jpg",
+    "000008.jpg": "C:/code-samples/DigitalSreeni/images/000008.jpg",
+    "000009.jpg": "C:/code-samples/DigitalSreeni/images/000009.jpg",
+    "000010.jpg": "C:/code-samples/DigitalSreeni/images/000010.jpg"
+  },
+  "notes": "",
+  "creation_date": "2025-04-02T18:18:12.933707",
+  "last_modified": "2025-04-02T18:18:12.933707"
+}

@@ -6,3 +6,7 @@ wandb_dir.mkdir(parents=True, exist_ok=True)
 #%%
 epochs = 140; lr = 0.01
 formatted_time = time.time().strftime("%Y_%m_%d_%H_%M")
+# %%
+
+
+# from lightning.pytorch.

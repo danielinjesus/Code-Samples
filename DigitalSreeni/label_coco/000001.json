@@ -1,0 +1,69 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "책표지_총류_000001.jpg",
+            "width": 1600,
+            "height": 1200,
+            "date_captured": "20210203"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                554,
+                45,
+                255,
+                141
+            ],
+            "area": 35955,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 2,
+            "bbox": [
+                486,
+                244,
+                441,
+                198
+            ],
+            "area": 87318,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 1,
+            "category_id": 3,
+            "bbox": [
+                507,
+                696,
+                390,
+                -205
+            ],
+            "area": -79950,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "나를키우는힘",
+            "supercategory": "text"
+        },
+        {
+            "id": 2,
+            "name": "평생",
+            "supercategory": "text"
+        },
+        {
+            "id": 3,
+            "name": "독서",
+            "supercategory": "text"
+        }
+    ]
+}

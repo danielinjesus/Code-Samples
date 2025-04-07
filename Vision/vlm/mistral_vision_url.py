@@ -11,11 +11,14 @@ messages = [
         "content": [
             {
                 "type": "text",
-                "text": "Return coordinates of bounding boxes for all the texts in this image"
+                "text": "explain the contents of the image in detail"
             },
             {
-                "type": "image_url",
-                "image_url": "https://raw.githubusercontent.com/mistralai/cookbook/refs/heads/main/mistral/ocr/receipt.png"
+                "type": "image_url",            
+                "image_url": "https://www.president.go.kr/images/2023/01/wkvWdGLGMyny63ca4efb184a16.84032054.png"
+                
+                # "image_url": "https://raw.githubusercontent.com/mistralai/cookbook/refs/heads/main/mistral/ocr/receipt.png"
+                #    "image_url": r"C:\code-samples\Vision\img\python_vis_code.png"
             }
         ]
     }

@@ -1,0 +1,42 @@
+{
+  "classes": [],
+  "images": [
+    {
+      "file_name": "000005.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000006.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000007.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    },
+    {
+      "file_name": "000010.jpg",
+      "width": 1600,
+      "height": 1200,
+      "is_multi_slice": false,
+      "annotations": {}
+    }
+  ],
+  "image_paths": {
+    "000005.jpg": "C:/code-samples/DigitalSreeni/images/000005.jpg",
+    "000006.jpg": "C:/code-samples/DigitalSreeni/images/000006.jpg",
+    "000007.jpg": "C:/code-samples/DigitalSreeni/images/000007.jpg",
+    "000010.jpg": "C:/code-samples/DigitalSreeni/images/000010.jpg"
+  },
+  "notes": "This is project is definitely useful!",
+  "creation_date": "2025-04-02T16:44:10.068937",
+  "last_modified": "2025-04-02T17:13:04.271210"
+}

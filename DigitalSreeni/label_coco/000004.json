@@ -1,0 +1,105 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "책표지_총류_000004.jpg",
+            "width": 1600,
+            "height": 1200,
+            "date_captured": "20210203"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                33,
+                0,
+                659,
+                396
+            ],
+            "area": 260964,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 2,
+            "bbox": [
+                380,
+                1007,
+                -169,
+                -965
+            ],
+            "area": 163085,
+            "iscrowd": 0
+        },
+        {
+            "id": 3,
+            "image_id": 1,
+            "category_id": 3,
+            "bbox": [
+                766,
+                932,
+                -725,
+                -768
+            ],
+            "area": 556800,
+            "iscrowd": 0
+        },
+        {
+            "id": 4,
+            "image_id": 1,
+            "category_id": 4,
+            "bbox": [
+                813,
+                0,
+                -637,
+                276
+            ],
+            "area": -175812,
+            "iscrowd": 0
+        },
+        {
+            "id": 5,
+            "image_id": 1,
+            "category_id": 5,
+            "bbox": [
+                811,
+                301,
+                -630,
+                495
+            ],
+            "area": -311850,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "xxx",
+            "supercategory": "text"
+        },
+        {
+            "id": 2,
+            "name": "xxx",
+            "supercategory": "text"
+        },
+        {
+            "id": 3,
+            "name": "xxx",
+            "supercategory": "text"
+        },
+        {
+            "id": 4,
+            "name": "xxx",
+            "supercategory": "text"
+        },
+        {
+            "id": 5,
+            "name": "완성 독서법",
+            "supercategory": "text"
+        }
+    ]
+}

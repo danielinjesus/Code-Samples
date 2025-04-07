@@ -1,0 +1,51 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "file_name": "책표지_총류_000003.jpg",
+            "width": 1600,
+            "height": 1200,
+            "date_captured": "20210203"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                89,
+                89,
+                784,
+                403
+            ],
+            "area": 315952,
+            "iscrowd": 0
+        },
+        {
+            "id": 2,
+            "image_id": 1,
+            "category_id": 2,
+            "bbox": [
+                69,
+                586,
+                857,
+                -106
+            ],
+            "area": -90842,
+            "iscrowd": 0
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "삶의",
+            "supercategory": "text"
+        },
+        {
+            "id": 2,
+            "name": "정도",
+            "supercategory": "text"
+        }
+    ]
+}
