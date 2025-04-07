@@ -1,7 +1,0 @@
-top # cpu 사용량 확인
-
-sudo apt update 
-sudo apt install htop
-htop # cpu 사용량 확인 직관
-
-nvidia-smi

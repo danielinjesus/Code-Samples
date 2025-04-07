@@ -32,6 +32,25 @@ print(config["database"]["host"])    # DB 호스트 출력
 ✅ yaml.safe_load() 사용 → 보안상 더 안전
 ✔️ 환경변수를 .env에 두는 것처럼 설정을 YAML로 관리 가능! 🚀
 
+==========================
+
+대안 1: yaml만
+yaml
+복사
+편집
+# config.yaml
+data_dir: "./data"
+log_dir: "./logs"
+python
+복사
+편집
+import yaml
+
+with open("config.yaml") as f:
+    cfg = yaml.safe_load(f)
+
+print(cfg["data_dir"])
+
 
 
 
