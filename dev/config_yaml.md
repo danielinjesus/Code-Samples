@@ -51,9 +51,6 @@ with open("config.yaml") as f:
 
 print(cfg["data_dir"])
 
-
-
-
-
-
-
+============
+패키지 호출하기
+from ocr.metrics ...처럼 하려면 baseline_code의 상위 폴더가 PYTHONPATH에 있어야 함.

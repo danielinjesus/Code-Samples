@@ -8,7 +8,6 @@ load_dotenv(); os.getenv("upstage")
 #  - huggingface=abc
 # 참고자료 https://codingdog.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-dotenv-loaddotenv%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%A5%BC-load%ED%95%B4-%EB%B4%85%EC%8B%9C%EB%8B%A4
 # 참고자료 https://www.youtube.com/shorts/LQ1tm5lkaLI
-
 ####################### 파일저장 #######################
 import os, time
 RESULT_PATH = ''
@@ -17,7 +16,6 @@ formatted_time = time.time().strftime("%Y_%m_%d_%H_%M")
 if not os.path.exists(RESULT_PATH):
 	os.makedirs(RESULT_PATH)
 "".to_csv(f"{RESULT_PATH}/{file_name}_{formatted_time}.csv", index=False, encoding='utf-8-sig')
-
 ####################### 작업시간 측정 #######################
 # 순수 프로세스 작업시간만 측정: time.process_time()
 import time

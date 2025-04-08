@@ -3,7 +3,7 @@ from io import BytesIO
 from PIL import Image
 
 # 이미지를 바이트 스트림으로 읽기
-image_path = "your_image.jpg"
+image_path = r"C:\code-samples\Vision\img\computer_settings.png"
 image = Image.open(image_path)
 image_bytes = BytesIO()
 image.save(image_bytes, format="PNG")
