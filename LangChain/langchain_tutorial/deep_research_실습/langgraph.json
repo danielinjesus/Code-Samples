@@ -1,0 +1,13 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "kt_deep_research": "./src/graph.py:graph",
+      "kt_deep_research_multi_agent": "./src/multi_agent.py:graph",
+      "kt_deep_research_workflow": "./src/workflow/workflow.py:workflow"
+    },
+    "python_version": "3.12",
+    "env": "./.env",
+    "dependencies": [
+      "."
+    ]
+  }
